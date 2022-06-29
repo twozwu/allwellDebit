@@ -1,0 +1,27 @@
+.card {
+    &.hover:hover {
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+        border-color: var(--bs-primary);
+    }
+}
+
+.claimsCard {
+    button {
+        min-width: 40px;
+    }
+
+    img {
+        max-height: 210px;
+        min-height: 100%;
+    }
+
+    @include media-breakpoint-up(md) {
+        .address {
+            max-height: 80px;
+        }
+    }
+
+    &.close {
+        opacity: 0.5;
+    }
+}

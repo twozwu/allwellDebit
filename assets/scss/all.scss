@@ -1,0 +1,9 @@
+@import "node_modules/bootstrap/scss/functions"; 
+@import "./helpers/_variables";
+@import "./helpers/_utilities";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import './helpers/base';
+@import './helpers/element-var';
+
+@import './components/card';
+@import './components/nav';
