@@ -148,8 +148,8 @@ export default {
   setup() {
     let remember = ref(false)
     const data = ref({
-      mobile: '',
-      password: '',
+      mobile: '0901234567',
+      password: '1234',
       userType: 1,
     })
     function rememberMe() {

@@ -78,7 +78,7 @@ export default {
   target: 'static',
   router: {
     mode: 'hash',
-    base: process.env.NODE_ENV === 'production' ? '/allwellDebit/dist/' : '/',
+    base: process.env.NODE_ENV === 'production' ? '/allwellDebit/' : '/',
   },
   // generate: {
   //   minify: {

@@ -4,7 +4,7 @@
     <div class="container d-flex align-items-center justify-content-between">
       <div class="logo">
         <h1>
-          <a href="/">歐維信貸</a>
+          <router-link to="/">歐維信貸</router-link>
         </h1>
       </div>
 
